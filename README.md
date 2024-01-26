@@ -17,7 +17,11 @@ Download the requirements
 ```bash
 pip install -r requirements.txt
 ```
-
+Download and install git lfs 
+To get model file
+```bash
+git lfs fetch --all
+```
 To run the Flask application
 ```bash
 python predictor.py
